@@ -105,7 +105,7 @@ plt.show()
 # In[10]:
 
 
-plt.figure(figsize=(20, 12))
+plt.figure(figsize=(20, 13))
 plt.subplot(2,3,1)
 sns.boxplot(x = 'mainroad', y = 'price', data = housing)
 plt.subplot(2,3,2)
